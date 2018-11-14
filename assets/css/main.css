@@ -8619,6 +8619,10 @@ body {
   z-index: 9; }
   .navbar .nav-link {
     color: #fff; }
+  .navbar .nav-item {
+    margin: 5px; }
+  .navbar .active {
+    border-bottom: 1px solid #f10000; }
 
 .navbar .navbar-brand {
   color: #fff;

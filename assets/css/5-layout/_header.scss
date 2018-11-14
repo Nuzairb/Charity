@@ -5,6 +5,12 @@
     .nav-link {
         color: $white;
     }
+    .nav-item {
+        margin: 5px;
+    }
+    .active {
+        border-bottom: 1px solid $red;
+    }
 }
 
 .navbar .navbar-brand {
