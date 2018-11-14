@@ -1,6 +1,17 @@
 .navbar {
     background: transparent;
     z-index: 9;
+    .nav-link {
+        color: #fff;
+    }
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 .carousel {
@@ -17,18 +28,13 @@
 }
 
 .carousel-caption {
-    top: 10%;
-    left: -20%;
+    top: 30%;
+    h5 {
+        text-align: left;
+    }
     h1 {
         font-size: 90px;
         font-weight: 800;
+        text-align: left;
     }
-}
-
-.navbar-light .navbar-brand {
-    color: #fff;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
 }
