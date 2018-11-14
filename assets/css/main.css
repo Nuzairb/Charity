@@ -8610,7 +8610,10 @@ html {
 
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
-.navbar {
-  background: transparent; }
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */
