@@ -1,13 +1,14 @@
 .navbar {
+    top: 40px;
     background: transparent;
     z-index: 9;
     .nav-link {
-        color: #fff;
+        color: $white;
     }
 }
 
 .navbar .navbar-brand {
-    color: #fff;
+    color: $white;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 800;
@@ -36,5 +37,19 @@
         font-size: 90px;
         font-weight: 800;
         text-align: left;
+    }
+    button {
+        background: $red;
+        border: none;
+        border-radius: 0;
+        padding: 20px 40px;
+        text-align: left;
+        position: absolute;
+        left: 0;
+        &:hover {
+            background: $white;
+            color: $red;
+            border: none;
+        }
     }
 }

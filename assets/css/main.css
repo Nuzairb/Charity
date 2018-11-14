@@ -8614,6 +8614,7 @@ body {
   font-family: 'Poppins', sans-serif; }
 
 .navbar {
+  top: 40px;
   background: transparent;
   z-index: 9; }
   .navbar .nav-link {
@@ -8645,5 +8646,17 @@ body {
     font-size: 90px;
     font-weight: 800;
     text-align: left; }
+  .carousel-caption button {
+    background: #f10000;
+    border: none;
+    border-radius: 0;
+    padding: 20px 40px;
+    text-align: left;
+    position: absolute;
+    left: 0; }
+    .carousel-caption button:hover {
+      background: #fff;
+      color: #f10000;
+      border: none; }
 
 /*# sourceMappingURL=main.css.map */
