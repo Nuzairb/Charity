@@ -8613,6 +8613,9 @@ html {
 body {
   font-family: 'Poppins', sans-serif; }
 
+#header {
+  height: 100vh; }
+
 .navbar {
   top: 40px;
   background: transparent;
@@ -8662,5 +8665,9 @@ body {
       background: #fff;
       color: #f10000;
       border: none; }
+
+#contact-us {
+  position: none;
+  padding: 100px 0; }
 
 /*# sourceMappingURL=main.css.map */
