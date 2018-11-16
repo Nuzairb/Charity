@@ -48,9 +48,21 @@
         font-weight: 800;
         text-align: left;
     }
+    button.button-lg {
+        float: left;
+    }
 }
 
 #contact-us {
     position: none;
     padding: 100px 0;
+    .details {
+        margin: 10px;
+        h1 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 30px;
+        }
+    }
 }

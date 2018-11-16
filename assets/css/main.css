@@ -8613,6 +8613,18 @@ html {
 body {
   font-family: 'Poppins', sans-serif; }
 
+.button-lg {
+  background: #f10000;
+  border: none;
+  border-radius: 0;
+  padding: 20px 40px;
+  text-align: left;
+  left: 0; }
+  .button-lg:hover {
+    background: #fff;
+    color: #f10000;
+    border: none; }
+
 #header {
   height: 100vh; }
 
@@ -8653,21 +8665,17 @@ body {
     font-size: 90px;
     font-weight: 800;
     text-align: left; }
-  .carousel-caption button {
-    background: #f10000;
-    border: none;
-    border-radius: 0;
-    padding: 20px 40px;
-    text-align: left;
-    position: absolute;
-    left: 0; }
-    .carousel-caption button:hover {
-      background: #fff;
-      color: #f10000;
-      border: none; }
+  .carousel-caption button.button-lg {
+    float: left; }
 
 #contact-us {
   position: none;
   padding: 100px 0; }
+  #contact-us .details {
+    margin: 10px; }
+    #contact-us .details h1 {
+      margin-bottom: 10px; }
+    #contact-us .details p {
+      margin-bottom: 30px; }
 
 /*# sourceMappingURL=main.css.map */
